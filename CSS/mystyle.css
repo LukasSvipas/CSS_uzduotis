@@ -1,0 +1,32 @@
+.container{
+	margin: 30px;
+}
+h3{
+	text-align: center;
+	border-style: double none;
+	padding: 10px 0px;
+}
+section{
+	display: inline-flex;
+}
+article{
+	width: 20%;
+	padding: 0px 20px;
+}
+footer p{
+	display: inline;
+	padding: 5px;
+}
+header, footer{
+	text-align: center;
+}
+h1{
+ 	font-size: 3em;
+ 	font-family: 'Unna', serif;
+}
+.strong{
+	font-weight: bold;
+}
+.pilka{
+	color: grey;
+}

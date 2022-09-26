@@ -1,0 +1,52 @@
+h1{
+	line-height: 100px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.5;
+	font-family: 'Cairo Play', cursive;
+}
+h2{
+	text-align: right;
+	font-size: 2.3;
+	font-family: 'Roboto Mono', monospace;
+}
+p{
+	text-align: justify;
+	font-size: 2.1;
+	font-family: 'Aref Ruqaa Ink', serif;
+}
+.footer{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	background: #eeff88 url('../image/bgr.jpeg');
+	width: 80%;
+	height: 1300px;
+	margin: 50px auto; /*margin galima naudot minusine reiksme*/
+	border: 30px;
+	opacity: 0.6;
+	padding: ;
+}
+header{
+	background-color: rgba(120, 200, 80, 0.5); /*a nurodo opacity */
+}
+nav{
+	background-color: lightgrey;
+	width: 60%;
+}
+nav ul li{
+	background-color: #ffffff;
+	text-transform: uppercase;
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+}
+nav ul li:hover{
+	background-color: #ffddff;
+}
+nav ul li a{
+	color: #000000;
+}
