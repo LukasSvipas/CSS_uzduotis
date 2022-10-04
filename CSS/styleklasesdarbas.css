@@ -6,8 +6,8 @@
 .container{
 	width: 70%;
 	background-color: rgba(0, 0, 0, 0.1);
-	display: flex;
 	margin: 0 auto;
+	display: flex;
 	flex-direction: column;
 	position: relative;
 }
@@ -23,47 +23,49 @@ header, article, footer{
 	text-align: center;
 	color: white;
 }
-header, footer{
-	height: 100px;
-}
 header{
 	background-color: skyblue;
 }
+div{
+	display: flex;
+}
 .left{
-	float: left;
-	width: 40%;
+	order: 1;
+	height: 500px;
+	flex-basis: 25%;
 }
 .hero{
-	height: 250px;
+	flex-grow: 1;
 	background-color: #c99ec9;
 }
 .sidebar{
-	height: 350px;
+	flex-grow: 2;
 	background-color: #5eb15e;
 }
 .right{
-	width: 60%;
-	float: right;
+	order: 2;
+	height: 500px;
+	flex-basis: 75%;
 }
 .main{
-	height: 400px;
+	flex-grow: 2;
 	background-color: #d79723;
 }
 .extra{
-	height: 200px;
+	flex-grow: 1;
 	background-color: #837f7f;
 }
-.images, .posts{
-	height: 150px;
+.images, .posts, .right, .left{
+	flex-direction: column;
 }
 .images{
-	float: left;
-	width: 75%;
+	order: 1;
+	flex-basis: 75%;
 	background-color: green;
 }
 .posts{
-	float: right;
-	width: 25%;
+	order: 2;
+	flex-basis: 25%;
 	background-color: pink;
 }
 footer{
