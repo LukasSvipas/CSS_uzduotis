@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 70%;
+	background-color: rgba(0, 0, 0, 0.1);
+	display: flex;
+	margin: 0 auto;
+	flex-direction: column;
+	position: relative;
+}
+h1, h2, p{
+	color: white;
+	text-align: center;
+}
+p{
+	text-align: justify-all;
+}
+header, article, footer, section{
+	border: 5px solid white;
+}
+header{
+	height: 80px;
+	background-color: skyblue;
+}
+.left{
+	float: left;
+	width: 30%;
+}
+.hero{
+	height: 200px;
+	background-color: #c99ec9;
+}
+.sidebar{
+	height: 300px;
+	background-color: #5eb15e;
+}
+.right{
+	width: 70%;
+	float: right;
+}
+.main{
+	height: 400px;
+	background-color: #d79723;
+}
+.extra{
+	height: 100px;
+	background-color: #837f7f;
+}
+.images{
+	height: 90px;
+	background-color: green;
+}
+.posts{
+	height: 90px;
+	background-color: pink;
+}
+footer{
+	clear: both;
+	height: 70px;
+	background-color: orange;
+}

@@ -1,0 +1,54 @@
+.container{
+	width: 80%;
+	height: 800px;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.1);
+	position: relative;
+}
+div div{
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	line-height: 150px;
+	text-align: center;
+	margin: 10px auto;
+	font-weight: bold;
+	position: absolute;
+}
+div div:nth-child(1){
+	background-color: pink;
+	z-index: 1;
+}
+div div:nth-child(2){
+	background-color: hotpink;
+	bottom: 0;
+	left: 0;
+}
+div div:nth-child(3){
+	background-color: deeppink;
+	bottom: 0;
+	right: 0;
+}
+div div:nth-child(4){
+	background-color: lightpink;
+	top: 0;
+	right: 0;
+}
+div div:nth-child(5){
+	background-color: palevioletred;
+	top: 280px; /* geriau naudot procentu */
+	left: 0;
+	right: 0;
+}
+div div:nth-child(6){
+	background-color: mediumvioletred;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+div div:nth-child(7){
+	background-color: indianred;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
