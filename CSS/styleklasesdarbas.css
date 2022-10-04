@@ -12,33 +12,37 @@
 	position: relative;
 }
 h1, h2, p{
-	color: white;
-	text-align: center;
+	padding: 10px;
 }
-p{
-	text-align: justify-all;
+h1, h2{
+	font-size: 3em;
+	font-weight: normal;
 }
-header, article, footer, section{
+header, article, footer{
 	border: 5px solid white;
+	text-align: center;
+	color: white;
+}
+header, footer{
+	height: 100px;
 }
 header{
-	height: 80px;
 	background-color: skyblue;
 }
 .left{
 	float: left;
-	width: 30%;
+	width: 40%;
 }
 .hero{
-	height: 200px;
+	height: 250px;
 	background-color: #c99ec9;
 }
 .sidebar{
-	height: 300px;
+	height: 350px;
 	background-color: #5eb15e;
 }
 .right{
-	width: 70%;
+	width: 60%;
 	float: right;
 }
 .main{
@@ -46,19 +50,22 @@ header{
 	background-color: #d79723;
 }
 .extra{
-	height: 100px;
+	height: 200px;
 	background-color: #837f7f;
 }
+.images, .posts{
+	height: 150px;
+}
 .images{
-	height: 90px;
+	float: left;
+	width: 75%;
 	background-color: green;
 }
 .posts{
-	height: 90px;
+	float: right;
+	width: 25%;
 	background-color: pink;
 }
 footer{
-	clear: both;
-	height: 70px;
 	background-color: orange;
 }
